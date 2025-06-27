@@ -286,7 +286,7 @@ color: #ffffff;
     color: #444;
 }
 @media (max-width: 768px) {
-  /* Sección principal con fondo más compacto */
+
   .seccion-principal {
     padding: 20px 10px 20px;
     min-height: auto;
@@ -385,11 +385,6 @@ color: #ffffff;
     height: auto;
     border-radius: 10px;
     margin-bottom: 0;
-  }
-
-  /* Ocultar burbujas para limpiar diseño */
-  .burbuja {
-    display: none;
   }
 
   /* Sección de logotipos */
