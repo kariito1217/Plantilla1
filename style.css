@@ -15,8 +15,9 @@ body {
   background-size: cover; /* Asegura que el fondo cubra todo el contenedor */
   position: relative;
   z-index: 1;
-color: #ffffff;
+  color: #ffffff;
 }
+
 
 
 .contenedor {
@@ -387,16 +388,25 @@ color: #ffffff;
     margin-bottom: 0;
   }
 
-  /* Sección de logotipos */
-  .seccion2 p {
-    flex-direction: column;
-    gap: 30px;
-  }
+/* Sección de logotipos */
+.seccion2 p {
+  flex-direction: row; /*  Mantiene en horizontal en celulares */
+  flex-wrap: wrap;     /*  Permite que se bajen si no caben */
+  justify-content: center;
+  gap: 16px;            /*  Espaciado más compacto en móvil */
+  row-gap: 10px;        /*  Espaciado vertical si bajan */
+  column-gap: 20px;
+  text-align: center;
+}
 
-  .seccion2 span {
-    font-size: 14px;
-    justify-content: center;
-  }
+.seccion2 span {
+  font-size: 14px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
 
   /* Sección "informacion" */
   .informacion {
