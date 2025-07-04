@@ -1,0 +1,120 @@
+@media (max-width: 768px) {
+  .seccion-principal {
+    padding: 20px 10px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contenedor {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 25px;
+  }
+
+  .texto, .texto h4, .texto h1, .texto p {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .texto h1 {
+    font-size: 26px;
+  }
+
+  .texto h1 span {
+    display: block;
+    font-size: 20px;
+    color: #ffe066;
+  }
+
+  .texto p {
+    font-size: 14px;
+  }
+
+  .botones {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .boton {
+    width: 80%;
+    max-width: 260px;
+    font-size: 15px;
+  }
+
+  .datos {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .cuadro {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 120px;
+    text-align: center;
+  }
+
+  .imagen {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .imagen img {
+    max-width: 320px;
+  }
+
+  .seccion2 p {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 20px;
+  }
+
+  .seccion2 span {
+    font-size: 14px;
+    gap: 6px;
+  }
+
+  .informacion {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .texto2 h2 {
+    font-size: 20px;
+  }
+
+  .texto2 p,
+  .lista li {
+    font-size: 14px;
+  }
+
+  .noticias {
+    padding: 30px 20px;
+  }
+
+  .cursos {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .tarjeta img {
+    height: 180px;
+  }
+
+  .categorias {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .categoria {
+    width: 100%;
+    text-align: center;
+  }
+}
