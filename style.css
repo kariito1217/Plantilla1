@@ -387,18 +387,112 @@ body {
   }
 
 @media (prefers-color-scheme: dark) {
-  .seccion-principal {
-    background: linear-gradient(to right, #121212, #1e1e1e); /* para oscuro */
+  :root {
+    color-scheme: dark;
   }
 
-  .burbuja {
-    background: rgba(255, 255, 255, 0.3);
+  body {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+
+  .seccion-principal {
+    background: linear-gradient(to right, #0d1b2a, #1b263b);
+    color: #f8f9fa;
+  }
+
+  .texto h4,
+  .texto h1,
+  .texto p,
+  .cuadro strong,
+  .cuadro p {
+    color: #ffffff;
   }
 
   .texto h1 span {
-    color: #ffe066;
+    color: #ffd700; /* dorado */
+  }
+
+  .boton.azul {
+    background-color: #1f6feb;
+    color: white;
+  }
+
+  .boton.blanco {
+    background-color: transparent;
+    color: #1f6feb;
+    border: 2px solid #1f6feb;
+  }
+
+  .cuadro {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .burbuja {
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(4px);
+  }
+
+  .seccion2 span {
+    color: #e0e0e0;
+  }
+
+  .separador {
+    background: #444;
+  }
+
+  .informacion {
+    background-color: #1a1a1a;
+  }
+
+  .texto2 h2 {
+    color: #ffffff;
+  }
+
+  .texto2 p,
+  .lista li {
+    color: #cccccc;
+  }
+
+  .noticias {
+    background: linear-gradient(to bottom right, #1b1b1b, #2c2c2c);
+  }
+
+  .categoria {
+    background-color: #2c3e50;
+    color: #ffffff;
+  }
+
+  .tarjeta {
+    background-color: #2b2b2b;
+    color: #f0f0f0;
+  }
+
+  .contenido-tarjeta h4 {
+    color: #ffffff;
+  }
+
+  .info-curso {
+    color: #cccccc;
+  }
+
+  .gratis {
+    color: #28a745;
+  }
+
+  .badge {
+    background-color: #ff5c5c;
+    color: white;
+  }
+
+  .boton-ver-todo button {
+    background-color: #1f6feb;
+    color: white;
   }
 }
+
 
 
 
