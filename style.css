@@ -552,7 +552,7 @@ body {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) and (max-width: 768px){
   :root {
     color-scheme: dark;
   }
